@@ -1,0 +1,28 @@
+{
+  "name": "colors_test",
+  "version": "0.0.1",
+  "description": "1st node project",
+  "main": "index.js",
+  "scripts": {
+    "code-test": "standard",
+    "say-hi": "echo 'Hola a todos'",
+    "say-hiandgoodbye": "echo 'Hola a todos' && echo 'Bye!'"
+  },
+  "keywords": [
+    "node",
+    "first",
+    "1st",
+    "project",
+    "test",
+    "colors"
+  ],
+  "author": "IPS2792",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}

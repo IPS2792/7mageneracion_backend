@@ -1,0 +1,18 @@
+String.prototype.sayHi = () => 'hola'
+
+const colors = require('colors')
+const colorsSafe = require('colors/safe')
+
+const name = 'Ivan'
+
+// Usando el paquete colors haciendo la llamada de name.metodo, estos metodos fueron agregados a String como una mutacion de estos y que aplican de forma global
+console.log(name.green)
+console.log(name.inverse)
+console.log(name.rainbow)
+console.log(name.trap)
+
+// Usando el paquete colors de forma segura, esto es, sus metodos se usan mediante la llamada objeto.metodo propia de colors y no como una mutacion que se extiende de forma global al objeto String en JS
+console.log(colorsSafe.rainbow(name))
+
+// Name usando el nuevo metodo sayHi() creado a traves de un prototipo
+console.log(colorsSafe.rainbow(name.sayHi()))
