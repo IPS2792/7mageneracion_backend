@@ -1,0 +1,24 @@
+{
+  "name": "p8_httpserver_express",
+  "version": "0.0.1",
+  "description": "HTTP server using express js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "test": "echo 'test running"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "express"
+  ],
+  "author": "IPS2792",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

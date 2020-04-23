@@ -1,0 +1,18 @@
+{
+    "koders": [
+        {
+            "name": "Ivan",
+            "gen": 7
+        },
+        {
+            "name": "Pablo",
+            "gen": 7
+        }
+    ],
+    "mentors":[
+        {
+            "name": "Carlos Silva",
+            "beta": false
+        }
+    ]
+}

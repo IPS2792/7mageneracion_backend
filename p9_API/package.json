@@ -1,0 +1,23 @@
+{
+  "name": "p9_api",
+  "version": "0.0.1",
+  "description": "API practice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "API",
+    "application",
+    "programming",
+    "interface"
+  ],
+  "author": "IPS2792",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
